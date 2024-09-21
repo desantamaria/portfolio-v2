@@ -22,9 +22,9 @@ const RecentProjects = () => {
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[22vh] md:h-[22vh] lg:h-[21vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl flex items-center"
-                  style={{ backgroundColor: "#13162D" }}
+                  style={{ backgroundColor: "#131916" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  {/* <img src="/bg.png" alt="bgimg" /> */}
                 </div>
                 <img src={img} alt="cover" className="z-10 absolute bottom-0" />
               </div>
@@ -36,7 +36,7 @@ const RecentProjects = () => {
               <p
                 className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                 style={{
-                  color: "#BEC1DD",
+                  color: "#BEDDC1",
                   margin: "1vh 0",
                 }}
               >
@@ -62,7 +62,7 @@ const RecentProjects = () => {
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Repo
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#CBF9AC" />
                 </div>
               </div>
             </PinContainer>

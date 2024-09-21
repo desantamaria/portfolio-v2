@@ -11,9 +11,9 @@ export const gridItems = [
     title: "I prioritize client collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full opacity-40",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.jpg",
     spareImg: "",
   },
   {
@@ -110,14 +110,14 @@ export const workExperience = [
     title: "Software Engineer Fellow",
     desc: "Built and deployed 5 AI projects in 5 weeks using React JS, Next.js, Firebase, Clerk, and Vercel, following agile methodologies with weekly sprints and incorporated CI/CD practices for iterative deployment",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.png",
   },
   {
     id: 2,
     title: "Supervisor",
     desc: "Developed excellent communication skills through team member follow-up and presentations and mentored and trained new leads to improved the future of the workplace",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   //   {
   //     id: 3,
@@ -139,13 +139,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/desantamaria",
   },
+  //   {
+  //     id: 2,
+  //     img: "/twit.svg",
+  //     link: "https://www.linkedin.com/in/desantama/",
+  //   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/desantama/",
   },
 ];
